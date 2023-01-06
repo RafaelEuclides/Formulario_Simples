@@ -1,0 +1,68 @@
+
+<!-- saved from url=(0056)file:///C:/Users/duckb/Desktop/Rafael/HTML/Tabelas.html? -->
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>HTML Avançado - Fundação Bradesco</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="app.js"></script>
+</head>
+<body>
+	<p>
+		Formulário para cadastro
+	</p>
+	<form action="file:///C:/Users/duckb/Desktop/Rafael/HTML/url" method="post">
+		<table  cellspacing="5">
+			<tbody>
+			<tr>
+				<td class="nm_sz">Nome: </td>
+				<td><input type="text" name="Nome" placeholder="Insira seu nome"></td>
+			</tr>
+			<tr>
+				<td>E-mail: </td> 
+				<td><input type="text" name="email" placeholder="Ex: google@gmail.com"></td>
+			</tr>
+			<tr>
+				<td>Sexo: </td>
+				<td>
+					<input type="radio" name="selec_sex" value="fem">Feminino 
+					<input type="radio" name="selec_sex" value="masc">Masculino
+				</td>
+			</tr>
+			<tr>
+				<td>RG: </td>
+				<td>
+					<input type="text" id="txtRg" name="rg" size="20" maxlength="9" placeholder="0000000-0" onkeyup="mask_rg();"/>
+				</td>
+			</tr>
+			<tr>
+				<td>CPF: </td>
+				<td>
+					<input type="text" id="txtCpf" name="cpf" size="20" maxlength="14" placeholder="000.000.000-00" onkeyup="mask_cpf();"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Login: </td> 
+				<td>
+					<input type="text" name="log" size="20" maxlength="5" placeholder="ID">
+				</td>
+			</tr>
+			<tr>
+				<td>Senha: </td> 
+				<td>
+					<input type="password" name="pass" size="20" maxlength="10" placeholder="*********">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input class="btn" type="submit" value="Enviar">
+				</td>
+				<td>
+					<input class="btn" type="reset" value="Limpar">
+				</td>
+			</tr>
+			</tbody>
+		</table>
+</form>
+</body>
+</html>
